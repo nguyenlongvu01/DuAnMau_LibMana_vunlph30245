@@ -53,12 +53,12 @@ public class DoiMKFragment extends Fragment {
                     thuThu.setMatKhau(edPass.getText().toString());
 
                     if (dao.updatePass(thuThu)>0){
-                        Toast.makeText(getContext(),"thay doi mat khau thanh cong",Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getContext(),"Thay đổi mật khẩu thành công",Toast.LENGTH_SHORT).show();
                         edPass.setText("");
                         edPassOld.setText("");
                         edRePass.setText("");
                     }else {
-                        Toast.makeText(getContext(),"thay doi mat khau that bai",Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getContext(),"Thay đổi mật khẩu thất bại",Toast.LENGTH_SHORT).show();
                     }
                 }
             }
@@ -70,7 +70,7 @@ public class DoiMKFragment extends Fragment {
         int check =1;
         if (edPassOld.getText().length()==0||edPass.getText().length()==0||edRePass.getText().length()==0){
             Toast.makeText(getContext(),
-                    "ban phia nhap day du thong tin",
+                    "Ban phải nhâp đầy đủ thông tin",
                     Toast.LENGTH_SHORT).show();
             check=-1;
         }else {
@@ -80,11 +80,11 @@ public class DoiMKFragment extends Fragment {
             String rePass =edRePass.getText().toString();
 
             if (!passOld.equals(edPassOld.getText().toString())){
-                Toast.makeText(getContext(),"mat khau cu sai",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getContext(),"Mat khau cu sai",Toast.LENGTH_SHORT).show();
                 check=-1;
             }
             if (!pass.equals(rePass)){
-                Toast.makeText(getContext(),"mat khau khong trung khop",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getContext(),"Mat khau khong trung khop",Toast.LENGTH_SHORT).show();
                 check=-1;
             }
         }

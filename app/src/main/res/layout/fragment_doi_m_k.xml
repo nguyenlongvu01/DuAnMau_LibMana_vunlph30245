@@ -71,7 +71,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="#B1AFAF"
                 android:drawableLeft="@drawable/ic_baseline_cancel_24"
-                android:text="Cancle"
+                android:text="Cancel"
                 android:textSize="20dp"/>
 
 

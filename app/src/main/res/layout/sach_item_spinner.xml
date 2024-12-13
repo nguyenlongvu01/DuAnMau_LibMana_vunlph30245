@@ -9,13 +9,13 @@
         android:layout_height="wrap_content"
         android:id="@+id/tvMaSachSp"
         android:textSize="14dp"
-        android:text="1"
+        android:text="1. "
         />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tvTenSachSp"
         android:textSize="14dp"
-        android:text="Nguyen Dac Tuyen"
+        android:text=" Nguyễn Long Vũ"
         />
 </LinearLayout>

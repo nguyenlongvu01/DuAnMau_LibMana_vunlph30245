@@ -15,21 +15,21 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="14dp"
-            android:text="MaSach"/>
+            android:text="Mã sách"/>
         <TextView
             android:id="@+id/tvTenSach"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="20dp"
+            android:textSize="15dp"
             android:textStyle="bold"
-            android:text="TenSach"/>
+            android:text="Tên sách"/>
         <TextView
             android:id="@+id/tvGiaThue"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="14dp"
             android:textStyle="bold"
-            android:text="GiaThue"/>
+            android:text="Giá thuê"/>
         <TextView
             android:id="@+id/tvLoai"
             android:layout_width="match_parent"
@@ -42,7 +42,7 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textSize="14dp"
-            android:text="Nhacungcap"
+            android:text="Tác giả"
             android:id="@+id/tvGNhacungcap"/>
     </LinearLayout>
     <ImageView

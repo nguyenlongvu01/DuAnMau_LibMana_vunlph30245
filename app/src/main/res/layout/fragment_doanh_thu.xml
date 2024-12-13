@@ -59,9 +59,9 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="30dp"
+        android:textSize="20dp"
         android:text="Doanh Thu:"
-        android:layout_margin="10dp"
+        android:layout_margin="20dp"
         android:textColor="#EA1010"
         android:textStyle="bold"
         android:id="@+id/tvDoanhThu"

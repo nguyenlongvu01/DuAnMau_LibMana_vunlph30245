@@ -52,20 +52,20 @@ public class PhieuMuonAdapter extends ArrayAdapter<PhieuMuon> {
         final PhieuMuon item = lists.get(position);
         if (item != null){
             tvMaPM = v.findViewById(R.id.tvMaPM);
-            tvMaPM.setText("Mã Phiếu:" +item.getMaPM());
+            tvMaPM.setText("Mã Phiếu: " +item.getMaPM());
 
             sachDAO = new SachDAO(context);
             Sach sach = sachDAO.getID(String.valueOf(item.getMaSach()));
             tvTenSach = v.findViewById(R.id.tvTenSach);
-            tvTenSach.setText("Tên Sách:" +sach.getTenSach());
+            tvTenSach.setText("Tên Sách: " +sach.getTenSach());
             thanhVienDAO = new ThanhVienDAO(context);
             ThanhVien thanhVien = thanhVienDAO.getID(String.valueOf(item.getMaTV()));
             tvTenTV = v.findViewById(R.id.tvTenTV);
-            tvTenTV.setText("Thành Viên:"+thanhVien.getHoTen());
+            tvTenTV.setText("Thành Viên: "+thanhVien.getHoTen());
             tvTienThue = v.findViewById(R.id.tvTienThue);
-            tvTienThue.setText("Tiền Thuê:"+item.getTienThue());
+            tvTienThue.setText("Tiền Thuê: "+item.getTienThue());
             tvNgay = v.findViewById(R.id.tvNgayPM);
-            tvNgay.setText("Ngày Thuê:"+sdf.format(item.getNgay()));
+            tvNgay.setText("Ngày Thuê: "+sdf.format(item.getNgay()));
             tvTraSach = v.findViewById(R.id.tvTraSach);
             if (item.getTraSach()==1){
                 tvTraSach.setTextColor(Color.BLUE);

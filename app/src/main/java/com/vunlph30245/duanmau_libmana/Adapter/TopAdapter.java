@@ -41,10 +41,10 @@ public class TopAdapter extends ArrayAdapter<Top> {
         final  Top item = lists.get(position);
         if (item != null){
             tvSach = v.findViewById(R.id.tvSach);
-            tvSach.setText("Sách:"+item.getTenSach());
+            tvSach.setText("Sách: "+item.getTenSach());
 
             tvSoLuong = v.findViewById(R.id.tvSL);
-            tvSoLuong.setText("Số lượng:"+item.getSoLuong());
+            tvSoLuong.setText("Số lượng: "+item.getSoLuong());
         }
         return v;
     }

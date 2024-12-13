@@ -46,16 +46,16 @@ public class SachAdapter extends ArrayAdapter<Sach> {
             LoaiSachDAO loaiSachDAO = new LoaiSachDAO(context);
             LoaiSach loaiSach = loaiSachDAO.getID(String.valueOf(item.getMaLoai()));
             tvMaSach = v.findViewById(R.id.tvMaSach);
-            tvMaSach.setText("Mã sách:" +item.getMaSach());
+            tvMaSach.setText("Mã sách: " +item.getMaSach());
 
             tvTenSach = v.findViewById(R.id.tvTenSach);
-            tvTenSach.setText("Tên sach:" +item.getTenSach());
+            tvTenSach.setText("Tên sách: " +item.getTenSach());
             tvGiaThue  = v.findViewById(R.id.tvGiaThue);
-            tvGiaThue.setText("Gía Thuê:" +item.getGiaThue());
+            tvGiaThue.setText("Giá Thuê: " +item.getGiaThue());
             tvLoai = v.findViewById(R.id.tvLoai);
-            tvLoai.setText("Loại sách:" +loaiSach.getTenLoai());
+            tvLoai.setText("Loại sách: " +loaiSach.getTenLoai());
             tvNhacungcap = v.findViewById(R.id.tvGNhacungcap);
-            tvNhacungcap.setText("Nha Cung cap:"+item.getNhacungcap());
+            tvNhacungcap.setText("Tác giả: "+item.getNhacungcap());
             imgDel = v.findViewById(R.id.imgDeleteLS);
         }
 

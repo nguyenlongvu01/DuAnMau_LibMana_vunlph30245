@@ -66,7 +66,7 @@ public class DoanhThuFragment extends Fragment {
                 String tuNgay = edTuNgay.getText().toString();
                 String denNgay = edDenNgay.getText().toString();
                 PhieuMuonDAO phieuMuonDAO = new PhieuMuonDAO(getActivity());
-                tvDoanhThu.setText("Doanh Thu:"+phieuMuonDAO.getDanhThu(tuNgay,denNgay)+"VNĐ");
+                tvDoanhThu.setText("Doanh Thu: "+phieuMuonDAO.getDanhThu(tuNgay,denNgay)+"VNĐ");
             }
         });
         return v;

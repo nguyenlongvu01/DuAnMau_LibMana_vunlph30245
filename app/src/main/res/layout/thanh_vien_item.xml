@@ -15,21 +15,21 @@
             android:layout_height="wrap_content"
             android:id="@+id/tvMaTV"
             android:textSize="14dp"
-            android:text="MaTV"/>
+            android:text="Mã thành viên"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/tvTenTV"
             android:textSize="14dp"
             android:textStyle="bold"
-            android:text="TenTV"/>
+            android:text="Tên thành viên"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/tvNamSinh"
             android:textSize="14dp"
             android:textStyle="bold"
-            android:text="namSinh"
+            android:text="Năm sinh"
             />
     </LinearLayout>
     <ImageView

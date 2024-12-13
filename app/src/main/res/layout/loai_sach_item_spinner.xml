@@ -12,6 +12,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Mã loại sách: "
+            android:layout_margin="10dp"
             android:id="@+id/tvMaLS"
             />
         <TextView
@@ -20,7 +21,8 @@
             android:id="@+id/tvTenLS"
             android:text="Tên loại: "
             android:textStyle="bold"
-            android:textSize="24dp"/>
+            android:layout_margin="10dp"
+            android:textSize="20dp"/>
 
 
     </LinearLayout>

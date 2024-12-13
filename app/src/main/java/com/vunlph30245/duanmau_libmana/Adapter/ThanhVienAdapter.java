@@ -41,7 +41,7 @@ public class ThanhVienAdapter extends ArrayAdapter<ThanhVien> {
         final ThanhVien item = list.get(position);
         if (item !=null){
             tvMaTV=v.findViewById(R.id.tvMaTV);
-            tvMaTV.setText("Mã thành viên:"+item.getMaTV());
+            tvMaTV.setText("Mã thành viên: "+item.getMaTV());
 
             tvTenTV =v.findViewById(R.id.tvTenTV);
             tvTenTV.setText("Tên thành viên: "+item.getHoTen());

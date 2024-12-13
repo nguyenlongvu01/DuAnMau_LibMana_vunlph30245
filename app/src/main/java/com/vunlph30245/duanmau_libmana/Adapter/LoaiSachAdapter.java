@@ -50,8 +50,8 @@ public class LoaiSachAdapter extends ArrayAdapter {
             tvTenLS = v.findViewById(R.id.tvTenLS);
             imgDelLS = v.findViewById(R.id.imgDelLS);
 
-            tvMaLS.setText("Mã ls: " + item.getMaLoai());
-            tvTenLS.setText("Tên ls: " + item.getTenLoai());
+            tvMaLS.setText("Mã loại sách: " + item.getMaLoai());
+            tvTenLS.setText("Tên loại sách: " + item.getTenLoai());
 
             imgDelLS.setOnClickListener(new View.OnClickListener() {
                 @Override

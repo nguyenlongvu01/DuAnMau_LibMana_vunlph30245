@@ -149,7 +149,7 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(new Intent(getApplicationContext(), LoginActivity.class));
                     finish();
                 } else if (itemID==R.id.navcHAO) {
-                    setTitle("Chao");
+                    setTitle("Chào");
                     WelcomeFragment welcomeFragment = new WelcomeFragment();
                     manager.beginTransaction()
                             .replace(R.id.content_fame, welcomeFragment)
